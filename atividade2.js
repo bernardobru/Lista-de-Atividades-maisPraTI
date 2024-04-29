@@ -1,4 +1,7 @@
 const prompt = require('prompt-sync')();
+
+console.log("CONTAGEM DE VOTOS");
+
 const eleitores = parseInt(prompt('Digite o número de eleitores do município: '))
 let brancos = parseInt(prompt('Quantidade de votos brancos: '));
 let nulos = parseInt(prompt('Quantidade de votos nulos: '));
@@ -18,4 +21,4 @@ if (totalVotos > eleitores) {
     console.log(`O total de votos válidos é de: ${porcentoValidos}%`);
     console.log(`O total de abstenções é de: ${abstencao}`);
 };
-//Para executar o código, basta digitar 'node atividade2.js' no terminal
+
