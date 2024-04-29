@@ -2,6 +2,9 @@ let numero = 100;
 let divisor = 0; 
 let contaResto = 0; 
 let contaPrimo = 0;
+
+console.log("VEJA OS 50 PRIMEIRO NÚMEROS PRIMOS MAIORES QUE 100");
+
 while (contaPrimo !== 50){
     divisor = numero;
     while (divisor !== 0){
