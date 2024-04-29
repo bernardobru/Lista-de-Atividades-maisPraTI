@@ -1,5 +1,7 @@
 const prompt = require('prompt-sync')();
 
+console.log("INSIRA DOIS VALORES E VEJA A ORDEM CRESCENTE DELES")
+
 let valor1 = Number(prompt("Digite um valor: "));
 let valor2 = Number(prompt("Digite outro valor: "));
 
