@@ -1,5 +1,4 @@
-# Lista-de-Atividades-maisPraTI
-Estas atividades fazem parte do curso FullStack da maisPraTI em parceria com a Codifica Edu.
+
 # Como executar o código
 Primeiro: você precisa instalar o Node.js em seu computador
 Segundo: você precisa ter o VisualStudioCode
