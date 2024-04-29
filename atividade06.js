@@ -1,5 +1,7 @@
 const prompt = require('prompt-sync')();
 
+console.log("INSIRA TRÊS VALORES E VEJA SE ELES FORMAM UM TRIÂNGULO E QUAL O TIPO DE TRIÂNGULO");
+
 let triangulo;
 let a = parseInt(prompt("Digite o lado A: "));
 let b = parseInt(prompt("Digite o lado B: "));
