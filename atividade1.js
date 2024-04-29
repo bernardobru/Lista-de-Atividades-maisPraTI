@@ -7,5 +7,3 @@ celsius = prompt("Digite a temperatura em C°: ");//Pergunta ao usuário qual o 
 conversao = celsius * 1.8 + 32;//Declaração da variável que recebe a fórmula de conversão de Celsius para Fahrenheit
 
 console.log(conversao);//Exibe no console o valor em Graus Fahrenheit
-
-//Para executar o arquivo, digite 'node atividade1.js' no terminal
