@@ -1,7 +1,10 @@
 const prompt = require('prompt-sync')();
-let num1 = parseInt(prompt("Digite o 1º número: "));
-let num2 = parseInt(prompt("Digite o 2º número: "));
-let num3 = parseInt(prompt("Digite o 3º número: "));
+
+console.log("INSIRA TRÊS VALORES E VEJA:", \n, "O 1° SENDO SOMADO 25", \n, "O 2° SENDO MULTIPLICADO POR 3", \n, "O 3° SENDO MOSTRADO 12% DO SEU VALOR ORIGINAL E", \n, "O 4° SENDO A SOMA DOS TRÊS VALORES ORIGINAIS");
+
+let num1 = parseInt(prompt("Digite o 1º número: "));//Pede ao usuário para digitar um número
+let num2 = parseInt(prompt("Digite o 2º número: "));//Pede ao usuário para digitar um número
+let num3 = parseInt(prompt("Digite o 3º número: "));//Pede ao usuário para digitar um número
 let num4 = parseInt();
 
 let int1 = num1 + 25;
