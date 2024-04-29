@@ -4,6 +4,8 @@ let somaPeso = 0;
 let numero;
 let peso;
 
+console.log("VEJA A MÉDIA PONDERADA, PARA PARAR DIGITE 0");
+
 while (numero !== 0) {
     numero = parseFloat(prompt("Digite um número: "));
     while (numero !== 0) {
